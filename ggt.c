@@ -49,7 +49,7 @@ int eingabeZahl() {
   return z;
 }
 
-float ausgabeErgebnis(int z1, int z2) {
+int ausgabeErgebnis(int z1, int z2) {
   //Ergebnisausgabe
   printf("\nDer ggT der Zahlen %d und %d lautet: %d\n\n",z1,z2,ggt(z1,z2));
 }
