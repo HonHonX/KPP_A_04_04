@@ -20,7 +20,7 @@ int main () {
 	printf("\n ************************ \n\n");
 	
 	//Funktionsaufruf
-	printf("Bitte geben Sie zwei Zahlen ein, deren ggT bestimmt werden sollen.");
+	printf("Bitte geben Sie zwei Zahlen ein, deren ggT bestimmt werden sollen.\n");
  	ausgabeErgebnis(eingabeZahl(),eingabeZahl());  
 
 	//Ende
