@@ -14,13 +14,14 @@ int main () {
 
 	printf("\n *************************************** ");
 	printf("\n *   ^,,,,^   *                        * ");
-	printf("\n *  ( o x o)  *                        * ");
+	printf("\n *  ( o x o)  *       ggT              * ");
 	printf("\n *  ( 7   7)  *                        * ");
 	printf("\n *   ´´´´´´   *                ©S.Buch * ");
 	printf("\n *************************************** \n\n");
 	
 	//Funktionsaufruf
-  ausgabeErgebnis(eingabeZahl(),eingabeZahl());  
+	printf("Bitte geben Sie zwei Zahlen ein, deren ggT bestimmt werden sollen."
+ 	ausgabeErgebnis(eingabeZahl(),eingabeZahl());  
 
 	//Ende
 	printf("\n\n");
