@@ -2,7 +2,7 @@
 
 // Funktions-Prototypen
 int ggt(int Zahl1, int Zahl2);
-int eingabeZahl;
+int eingabeZahl();
 int ausgabeErgebnis (int z1, int z2);
 
 //Hauptprogramm
