@@ -12,12 +12,12 @@ int main () {
 	* Der ggT wird über einen rekursiven Aufruf ermittelt
 	*/
 
-	printf("\n *************************************** ");
-	printf("\n *   ^,,,,^   *                        * ");
-	printf("\n *  ( o x o)  *       ggT              * ");
-	printf("\n *  ( 7   7)  *                        * ");
-	printf("\n *   ´´´´´´   *                ©S.Buch * ");
-	printf("\n *************************************** \n\n");
+	printf("\n ************************ ");
+	printf("\n *   ^,,,,^   *         * ");
+	printf("\n *  ( o x o)  *   ggT   * ");
+	printf("\n *  ( 7   7)  *         * ");
+	printf("\n *   ´´´´´´   * ©S.Buch * ");
+	printf("\n ************************ \n\n");
 	
 	//Funktionsaufruf
 	printf("Bitte geben Sie zwei Zahlen ein, deren ggT bestimmt werden sollen.");
@@ -43,7 +43,7 @@ int eingabeZahl() {
   int z;
   
   //Eingabe(aufforderung)
-  printf("\n\nEingabe: ");
+  printf("\nEingabe: ");
   scanf("%d", &z);
   
   //Ausgabe
@@ -52,5 +52,5 @@ int eingabeZahl() {
 
 int ausgabeErgebnis(int z1, int z2) {
   //Ergebnisausgabe
-  printf("\nDer ggT der Zahlen %d und %d lautet: %d\n\n",z1,z2,ggt(z1,z2));
+  printf("\nDer ggT der Zahlen %d und %d lautet: %d\n",z1,z2,ggt(z1,z2));
 }
